@@ -5,13 +5,17 @@ header {
     background-size: cover;
     background-position: top;
     position: relative;
+    text-align: center;
 }
 
 .logo{
-    color: white;
+    padding: 5px;
+    margin: 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,0.7);
     text-decoration: none;
-    padding: 10px;
-    font-size: 200%;
+    font-size: 25px;
 }
 
 .header-bottom {
