@@ -84,4 +84,7 @@ header {
     header {
         background-image: url(img/full.medium.jpeg);
     }
+    iframe {
+        width: 100%;
+    }
 }

@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="./style.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="codi.js"></script>
 
 <!-- !PAGE CONTENT! -->
 <body>
@@ -22,27 +23,40 @@
 <div style="margin:auto;width:80%">
   <p class="w3-large w3-text-pink" style="text-align: center;">nombres reals - funcions - equacions</p>
 
-  <h2 id="about" style="text-align: center;">Escape room virtual</h2>
+  <h2 id="about" style="text-align: center;">Y se hizo el número...</h2>
   <center><img src="img/ibart.jpg" class="w3-image w3-padding-32" width="300" height="300"></center>
 
   <p>
     El número φ ha sido ampliamente utilizado en pintura, escultura y arquitectura. Su valor exacto es igual a 
-    la solución positiva de la ecuación x2 – x – 1 = 0, que es _____ ≈ _____.
+    la solución positiva de la ecuación x<sup>2</sup> – x – 1 = 0, que es A=a,bc ≈ B=(d+sqrt(e))/f.
     Se le conoce con el nombre de sección áurea, número de oro o divina proporción. Este número es sinónimo 
     de equilibrio y armonía, de ahí que haya sido usado con frecuencia en el mundo del arte.
-
-
-
   </p>
+  <p>Para encontrar A se han de seguir los siguientes pasos:</p>
   <ol>
     <li>Un cuadrado sobre el segmento unidad.
     <li>Dibujamos el punto medio de la base (M).
     <li>Hacemos una circunferencia con centro = punto medio de la base (M) y punto = vértice del lado opuesto (C).
     <li>La llevamos sobre el eje horizontal (D).
+    <li>Aproxima.
   </ol>
   <center>
   <iframe scrolling="no" title="GeoGebra" src="https://www.geogebra.org/material/iframe/id/wx8wapxm/width/700/height/500/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/true" width="700px" height="500px" style="border:0px;"> </iframe>
   </center>
+
+  <form style="margin:auto;width:40%" action="second.html" onsubmit="return validarform()" method="post">
+    <div class="w3-section">
+      <label><b>A</b></label>
+      <input class="w3-input w3-border" type="text" required id="A" placeholder="a,bc">
+    </div>
+    ≈
+    <div class="w3-section">
+      <label><b>B</b></label>
+      <input class="w3-input w3-border" type="text" required id="B" placeholder="(d+sqrt(e))/f">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-gray">enviar respuesta</button>
+  </form>
+  <br>
 </div>
 
 <!-- Footer / About Section -->
