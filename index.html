@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="./style.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="codi.js"></script>
+<link href="css/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+
 
 <!-- !PAGE CONTENT! -->
 <body>
@@ -41,10 +43,10 @@
     <li>Aproxima.
   </ol>
   <center>
-  <iframe scrolling="no" title="GeoGebra" src="https://www.geogebra.org/material/iframe/id/wx8wapxm/width/700/height/500/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/true" width="700px" height="500px" style="border:0px;"> </iframe>
+    <iframe scrolling="no" title="GeoGebra" src="https://www.geogebra.org/material/iframe/id/wx8wapxm/width/700/height/500/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/true" width="700px" height="500px" style="border:0px;"> </iframe>
+  <br>
   </center>
 
-  <form style="margin:auto;width:40%" action="second.html" onsubmit="return validarform()" method="post">
     <div class="w3-section">
       <label><b>A</b></label>
       <input class="w3-input w3-border" type="text" required id="A" placeholder="a,bc">
@@ -54,8 +56,8 @@
       <label><b>B</b></label>
       <input class="w3-input w3-border" type="text" required id="B" placeholder="(d+sqrt(e))/f">
     </div>
-    <button type="submit" class="w3-button w3-block w3-dark-gray">enviar respuesta</button>
-  </form>
+    <p style="text-align: center;"><a href="second.html" onclick="return validarform()"><i class="fas fa-paper-plane"></i></a>
+    </p>
   <br>
 </div>
 
