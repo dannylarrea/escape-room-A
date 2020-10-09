@@ -1,6 +1,12 @@
 /*defauld*/
-body {font-family: "Raleway", Arial, sans-serif}
-.w3-row img {margin-bottom: -8px}
+
+body {
+    font-family: "Raleway", Arial, sans-serif
+}
+
+.w3-row img {
+    margin-bottom: -8px
+}
 
 header {
     height: 100vh;
@@ -11,10 +17,29 @@ header {
     background-position: top;
     position: relative;
     text-align: center;
+    padding: 20vh 0;
 }
 
-.logo{
-    padding: 10px;
+.column {
+    float: left;
+    width: 100%;
+    /*padding: 0 20% 0 20%;*/
+    padding: 20px 20%;
+}
+
+.column h1 {
+    color: pink;
+    text-align: center;
+    font-size: 20px;
+}
+
+.column h2 {
+    color: green;
+    text-align: center;
+}
+
+.logo {
+    padding: 5px;
     color: black;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -41,39 +66,42 @@ header {
 .img-flecha {
     animation: flecha 2s infinite;
 }
+
 @-webkit-keyframes flecha {
     0%,
     100% {
-      -webkit-transform: translatey(-2rem);
-      transform: translatey(-2rem);
+        -webkit-transform: translatey(-2rem);
+        transform: translatey(-2rem);
     }
     50% {
-      -webkit-transform: translatey(0);
-      transform: translatey(0);
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
     }
 }
+
 @-o-keyframes flecha {
     0%,
     100% {
-      -o-transform: translatey(-2rem);
-      transform: translatey(-2rem);
+        -o-transform: translatey(-2rem);
+        transform: translatey(-2rem);
     }
     50% {
-      -o-transform: translatey(0);
-      transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
     }
 }
+
 @keyframes flecha {
     0%,
     100% {
-      -webkit-transform: translatey(-2rem);
-      -o-transform: translatey(-2rem);
-      transform: translatey(-2rem);
+        -webkit-transform: translatey(-2rem);
+        -o-transform: translatey(-2rem);
+        transform: translatey(-2rem);
     }
     50% {
-      -webkit-transform: translatey(0);
-      -o-transform: translatey(0);
-      transform: translatey(0);
+        -webkit-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
     }
 }
 
@@ -82,10 +110,10 @@ header {
 }
 
 iframe {
-  width: 700px;
-  height: 500px;
-  border: 0;
-  margin: auto;
+    width: 700px;
+    height: 500px;
+    border: 0;
+    margin: auto;
 }
 
 @media screen and (max-width: 880px) {

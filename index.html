@@ -1,69 +1,65 @@
 <!DOCTYPE html>
-<html>
-<title>PR1: Escape room virtual</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="./style.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="codi.js"></script>
-<link href="css/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+<html lang="en">
 
-<!-- !PAGE CONTENT! -->
+<head>
+    <title>escape room | DAW</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="codi.js"></script>
+    <link href="css/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+</head>
+
 <body>
-<!-- Header -->
-<header>
-  <a class="logo" href="#about">PR1: Escape room virtual</a>
-  <div class="header-bottom">
-    <div class="bottom-center">
-      <a href="#about"><img class="img-flecha" src="./img/SVG_FLECHA.svg"></a>
+
+    <header>
+        <a class="logo" href="#about">Escape room virtual</a>
+        <div class="header-bottom">
+            <div class="bottom-center">
+                <a href="#about"><img class="img-flecha" src="./img/SVG_FLECHA.svg"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="column">
+            <h1>Primer repte</h1>
+
+            <h2>El nombre d'or</h2>
+
+            <p>
+                La solució positiva de l'equació x<sup>2</sup> – x – 1 = 0 és un nombre irracional conegut com a nombre auri o nombre d'or, i designat habitualment per la lletra grega Φ o també φ (fi).
+
+                <center><img src="img/ibart.jpg" class="w3-image w3-padding-32" width="300" height="300"></center>
+            </p>
+            <p>Per començar el repte, primer hem de trobar el valor d'un nombre desconegut el qual anomenarem A. Per fer-ho heu de seguir els següents passos:</p>
+            <ol>
+                <li>Construïm un quadrat sobre el segment unitat [0,1].
+                    <li>Dibuixem el punt mitjà de la base.
+                        <li>Fem una circumferència amb centre = punt mitjà de la base i punt = vèrtex del costat oposat.
+                            <li>La portem sobre l'eix horitzontal.
+                                <li>Aproximem.
+            </ol>
+            <center>
+                <iframe scrolling="no" title="GeoGebra" src="https://www.geogebra.org/material/iframe/id/wx8wapxm/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/true"> </iframe>
+            </center>
+
+            <input class="w3-input w3-border" type="text" required id="A" placeholder="A: fins a 2 decimals">
+
+            <p style="text-align: center;">≈</p>
+            <label><b>Solució positiva de l'equació que defineix Φ</b></label>
+            <input class="w3-input w3-border" type="text" required id="B" placeholder="B: (d+sqrt(e))/f | d, e, f ∈ Naturals+">
+        </div>
+        <p style="text-align: center;"><a href="second.html" onclick="return validarform()"><i class="fas fa-paper-plane"></i></a>
+        </p>
     </div>
-  </div>
-</header>
 
-<div style="margin:auto;width:80%">
-  <p class="w3-large w3-text-pink" style="text-align: center;">nombres reals - funcions - equacions</p>
-
-  <h2 id="about" style="text-align: center;">El nombre d'or</h2>
-
-  <p>
-    La solució positiva de l'equació x<sup>2</sup> – x – 1 = 0 és un nombre irracional conegut com a nombre auri o nombre d'or, 
-    i designat habitualment per la lletra grega Φ o també φ (fi).
-
-    <center><img src="img/ibart.jpg" class="w3-image w3-padding-32" width="300" height="300"></center>
-  </p>
-  <p>Per començar el repte, primer hem de trobar el valor d'un nombre desconegut el qual anomenarem A. Per fer-ho heu de seguir els següents passos:</p>
-  <ol>
-    <li>Construïm un quadrat sobre el segment unitat [0,1].
-    <li>Dibuixem el punt mitjà de la base.
-    <li>Fem una circumferència amb centre = punt mitjà de la base i punt = vèrtex del costat oposat.
-    <li>La portem sobre l'eix horitzontal.
-    <li>Aproximem.
-  </ol>
-
-</div>
-<center>
-  <iframe scrolling="no" title="GeoGebra" src="https://www.geogebra.org/material/iframe/id/wx8wapxm/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/true"> </iframe>
-</center>
-<div style="margin:auto;width:80%">
-    <div class="w3-section">
-      <label><b>A</b></label>
-      <input class="w3-input w3-border" type="text" required id="A" placeholder="fins a 2 decimals">
-    </div>
-    <p style="text-align: center;">≈</p>
-    <div class="w3-section">
-      <label><b>Solució positiva de l'equació que defineix Φ</b></label>
-      <input class="w3-input w3-border" type="text" required id="B" placeholder="(d+sqrt(e))/f | d, e, f ∈ Naturals+">
-    </div>
-    <p style="text-align: center;"><a href="second.html" onclick="return validarform()"><i class="fas fa-paper-plane"></i></a>
-    </p>
-  <br>
-</div>
-
-<!-- Footer / About Section -->
-<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
-  <p>Desenvolupat per <a href="https://www.twitter.com/dannylarrea" style="text-decoration: none;" target="_blank" class="w3-hover-text-green">@dannylarrea</a></p>
-</footer>
- 
+    <!-- Footer / About Section -->
+    <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+        <p>Desenvolupat per DAW2 2021</p>
+    </footer>
 </body>
+
 </html>
