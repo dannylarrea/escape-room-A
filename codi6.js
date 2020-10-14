@@ -1,6 +1,6 @@
 function validarform() {
     try {
-        if (document.getElementById("A").value == "1,62" && document.getElementById("B").value == "(1+sqrt(5))/2") {
+        if (document.getElementById("A").value == "La pizza esta creada correctamente" && document.getElementById("B").value == "A la pizza le falta un ingrediente") {
             return true;
         }
         /*else if (condition) {
