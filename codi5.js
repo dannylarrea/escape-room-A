@@ -1,6 +1,6 @@
 function validarform() {
     try {
-        if (document.getElementById("A").value == "1,62" && document.getElementById("B").value == "(1+sqrt(5))/2") {
+        if (document.getElementById("A").value == "Dents ven nets" && document.getElementById("B").value == "Tens els dents bruts!") {
             return true;
         }
         /*else if (condition) {
