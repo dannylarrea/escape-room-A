@@ -1,6 +1,6 @@
 function validarform() {
     try {
-        if (document.getElementById("A").value == "UHTRED") {
+        if (document.getElementById("A").value == "4 QUESOS") {
             return true;
         }
         /*else if (condition) {
@@ -13,6 +13,6 @@ function validarform() {
     } catch (error) {
         //alert(error);
     }
-    alert("Intenta-ho de nou!");
+    alert("Ho tornes a intentar");
     return false;
 }
