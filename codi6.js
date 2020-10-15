@@ -1,6 +1,6 @@
 function validarform() {
     try {
-        if (document.getElementById("A").value == "La pizza esta creada correctamente" && document.getElementById("B").value == "A la pizza le falta un ingrediente") {
+        if (document.getElementById("A").value == "esta bé" && document.getElementById("B").value == "esta mal") {
             return true;
         }
         /*else if (condition) {
@@ -13,6 +13,6 @@ function validarform() {
     } catch (error) {
         //alert(error);
     }
-    alert("Intenta-ho de nou!");
+    alert("Ho tornes a intentar");
     return false;
 }
