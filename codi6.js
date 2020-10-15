@@ -1,6 +1,6 @@
 function validarform() {
     try {
-        if (document.getElementById("A").value == "esta bé" && document.getElementById("B").value == "esta mal") {
+        if (document.getElementById("A").value == "4 QUESOS") {
             return true;
         }
         /*else if (condition) {
